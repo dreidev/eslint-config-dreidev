@@ -9,6 +9,13 @@
     "url": "git+https://github.com/dreidev/eslint-config-dreidev.git"
   },
   "author": "Dreidev",
+  "contributors": [
+    {
+      "name": "Ahmed Tarek",
+      "email": "tokyo@dreidev.com",
+      "url": "https://github.com/A-Tokyo"
+    }
+  ],
   "scripts": {
     "test": "node test/test.js"
   },
