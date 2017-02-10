@@ -21,5 +21,5 @@ Once the `eslint-config-dreidev` package is installed, you can use it by specify
 ```
 
 #### Credit
-This repo is hugely inspired by [eslint-config-google](https://github.com/google/eslint-config-google) customizing the rules to our preferences.
-The Dreidev javascript style guide closely but not strictly follows [airbnb/javascript](https://github.com/airbnb/javascript)
+- This repo is hugely inspired by [eslint-config-google](https://github.com/google/eslint-config-google) customizing the rules to our preferences.
+- The Dreidev javascript style guide closely but not strictly follows [airbnb/javascript](https://github.com/airbnb/javascript)
