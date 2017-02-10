@@ -1,0 +1,52 @@
+{
+  "name": "eslint-config-dreidev",
+  "version": "0.1.0",
+  "description": "ESLint shareable config for the Dreidev JavaScript style guide",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreidev/eslint-config-dreidev.git"
+  },
+  "author": "Dreidev",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "dreidev",
+    "tokyo",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "jscs",
+    "jshint",
+    "jslint",
+    "eslint",
+    "validate",
+    "code style",
+    "strict",
+    "check",
+    "checker",
+    "verify",
+    "enforce",
+    "hint"
+  ],
+  "bugs": {
+    "url": "https://github.com/dreidev/eslint-config-dreidev/issues"
+  },
+  "homepage": "https://github.com/dreidev/eslint-config-dreidev#readme",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=3.15.0"
+  }
+}
