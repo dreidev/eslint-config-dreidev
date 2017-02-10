@@ -1,6 +1,8 @@
 # eslint-config-dreidev
 ESLint shareable config for the Dreidev JavaScript style guide
 
+[![Build Status](https://travis-ci.org/dreidev/eslint-config-dreidev.svg?branch=master)](https://travis-ci.org/dreidev/eslint-config-dreidev)
+
 ## Installation
 
 ```
