@@ -1,5 +1,5 @@
 # eslint-config-dreidev
-ESLint shareable config for the Dreidev JavaScript style guide
+ESLint shareable config for the [Dreidev](http://dreidev.com) JavaScript style guide
 
 [![Build Status](https://travis-ci.org/dreidev/eslint-config-dreidev.svg?branch=master)](https://travis-ci.org/dreidev/eslint-config-dreidev) [![Coverage Status](https://coveralls.io/repos/github/dreidev/eslint-config-dreidev/badge.svg?branch=master)](https://coveralls.io/github/dreidev/eslint-config-dreidev?branch=master)
 
