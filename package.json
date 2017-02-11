@@ -8,7 +8,11 @@
     "type": "git",
     "url": "git+https://github.com/dreidev/eslint-config-dreidev.git"
   },
-  "author": "Dreidev",
+  "author": {
+    "name": "Dreidev",
+    "email": "contact@dreidev.com",
+    "url": "https://dreidev.com"
+  },
   "contributors": [
     {
       "name": "Ahmed Tarek",
@@ -17,7 +21,9 @@
     }
   ],
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node_modules/mocha/bin/mocha",
+    "coverage": "./node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha",
+    "coveralls": "npm run coverage -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
   "files": [
     "index.js"
@@ -51,7 +57,11 @@
     "node": ">=0.10.0"
   },
   "devDependencies": {
-    "eslint": "^3.15.0"
+    "coveralls": "^2.11.16",
+    "eslint": "^3.15.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "mocha-lcov-reporter": "^1.2.0"
   },
   "peerDependencies": {
     "eslint": ">=3.15.0"

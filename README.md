@@ -1,5 +1,8 @@
 # eslint-config-dreidev
-ESLint shareable config for the Dreidev JavaScript style guide
+
+ESLint shareable config for the [Dreidev](http://dreidev.com) JavaScript style guide
+
+[![npm version](https://badge.fury.io/js/eslint-config-dreidev.svg)](https://badge.fury.io/js/eslint-config-dreidev) [![Build Status](https://travis-ci.org/dreidev/eslint-config-dreidev.svg?branch=master)](https://travis-ci.org/dreidev/eslint-config-dreidev) [![Coverage Status](https://coveralls.io/repos/github/dreidev/eslint-config-dreidev/badge.svg?branch=master)](https://coveralls.io/github/dreidev/eslint-config-dreidev?branch=master)
 
 ## Installation
 
@@ -21,5 +24,6 @@ Once the `eslint-config-dreidev` package is installed, you can use it by specify
 ```
 
 #### Credit
+
 - This repo is hugely inspired by [eslint-config-google](https://github.com/google/eslint-config-google) customizing the rules to our preferences.
 - The Dreidev javascript style guide closely but not strictly follows [airbnb/javascript](https://github.com/airbnb/javascript)

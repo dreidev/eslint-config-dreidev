@@ -1,5 +1,6 @@
 language: node_js
 node_js:
+  - '6'
   - '5'
   - '4'
 notifications:
@@ -7,3 +8,6 @@ notifications:
 cache:
   directories:
     - node_modules
+script: npm run coverage
+after_success:
+  - npm run coveralls
