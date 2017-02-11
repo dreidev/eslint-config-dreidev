@@ -19,7 +19,7 @@ const eslintOpts = {
 
 // Runs the linter on the repo files and asserts no errors were found.
 describe('eslint-config-dreidev', function() {
-  it('should run the linter on repo files and not throw.', function() {
+  it('should run linter on repo files and not throw nor warn.', function() {
     const report = new eslint.CLIEngine(eslintOpts).executeOnFiles(repoFiles);
     assert.equal(report.errorCount, 0);
     assert.equal(report.warningCount, 0);
