@@ -8,7 +8,11 @@
     "type": "git",
     "url": "git+https://github.com/dreidev/eslint-config-dreidev.git"
   },
-  "author": "Dreidev",
+  "author": {
+    "name": "Dreidev",
+    "email": "contact@dreidev.com",
+    "url": "https://dreidev.com"
+  },
   "contributors": [
     {
       "name": "Ahmed Tarek",
